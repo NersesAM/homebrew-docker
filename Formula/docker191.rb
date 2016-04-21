@@ -10,6 +10,7 @@ class Docker191 < Formula
 
   bottle do
     cellar :any_skip_relocation
+    root_url "https://homebrew.bintray.com/bottles"
     sha256 "fe02c921afd6863be441b85ae069e24b7c5b13e97615b47c994ea8064e082bf1" => :el_capitan
     sha256 "8a3137f5d6155491e9c4833d80ca819d8bf6d31f38595be713baed06f5283c92" => :yosemite
     sha256 "282f987005f81d9a82269827b66aa1044dfbd8645c23845d59e21aad93dc99e0" => :mavericks
